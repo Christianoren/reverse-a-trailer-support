@@ -1,29 +1,34 @@
-# Support
-
-## Learn to Reverse a Trailer
-
-If you have any questions, feedback, or are experiencing issues with the app, please don't hesitate to get in touch.
-
-**Email:** [reverseatrailer@gmail.com](mailto:reverseatrailer@gmail.com)
-
-We aim to respond within 48 hours.
-
+---
+title: Support
+description: Get help with Learn to Reverse a Trailer. Contact us by email or find answers to common questions about the trailer reversing app.
+permalink: /support
+faq:
+  - q: The app crashes on startup. What should I do?
+    a: Try restarting your device and launching the app again. If the problem continues, please email us with your device model and your Android or iOS version.
+  - q: How do I reset my level progress?
+    a: Deleting and reinstalling the app resets all progress.
+  - q: Can I play in both landscape orientations?
+    a: Yes, the app supports both landscape left and landscape right.
+  - q: I have an idea for a new level. How do I suggest it?
+    a: We'd love to hear it. Send your ideas to reverseatrailer@gmail.com.
 ---
 
-## Frequently Asked Questions
+<div class="wrap page">
+  <h1>Support</h1>
+  <p class="lead">If you have questions or feedback, or something isn't working in the app, get in touch.</p>
 
-**The app crashes on startup — what should I do?**
-Try restarting your device and launching the app again. If the problem persists, please contact us with your device model and iOS version.
+  <div class="contact-card">
+    <p><strong>Email:</strong> <a href="mailto:reverseatrailer@gmail.com">reverseatrailer@gmail.com</a></p>
+    <p>We aim to respond within 48 hours.</p>
+  </div>
 
-**How do I reset my level progress?**
-Deleting and reinstalling the app will reset all progress.
-
-**Can I play in both landscape orientations?**
-Yes, the app supports both landscape left and landscape right.
-
-**I have an idea for a new level — how do I suggest it?**
-We'd love to hear it! Send your ideas to [reverseatrailer@gmail.com](mailto:reverseatrailer@gmail.com).
-
----
-
-[Back to home](.) &nbsp;|&nbsp; [Privacy Policy](privacy)
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    {% for item in page.faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+</div>

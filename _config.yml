@@ -1,3 +1,27 @@
 title: Learn to Reverse a Trailer
-description: Master reversing with a trailer before you hit the road.
-theme: minima
+tagline: Trailer reversing simulator
+description: Practise reversing a car with a trailer in a realistic 3D simulator. Build towing confidence before your test or your next trip, with no traffic and no risk.
+url: https://christianoren.github.io
+baseurl: /reverse-a-trailer-support
+lang: en
+
+author:
+  name: Christian Øren
+  email: reverseatrailer@gmail.com
+
+# Store links: paste the real URLs here
+google_play_url: https://play.google.com/store/apps/details?id=com.oren.reverseatrailer
+app_store_url: https://apps.apple.com/app/learn-to-reverse-a-trailer/id6803498521
+
+# Used by jekyll-seo-tag for social share previews (add the file to enable)
+# image: /assets/og-image.png
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
