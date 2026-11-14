@@ -39,10 +39,6 @@ schema: app
   </figure>
   <div class="shot-grid">
     <figure class="shot">
-      <img src="{{ '/assets/img/shot-5.jpg' | relative_url }}" width="1280" height="656" loading="lazy" alt="Reversing the trailer between barriers, seen in both side mirrors">
-      <figcaption>Thread the trailer between barriers</figcaption>
-    </figure>
-    <figure class="shot">
       <img src="{{ '/assets/img/shot-3.jpg' | relative_url }}" width="1280" height="656" loading="lazy" alt="Lining the trailer up with the yellow target bay in a parking garage">
       <figcaption>Line up with the yellow target bay</figcaption>
     </figure>
