@@ -12,6 +12,8 @@
     "@type": "MobileApplication",
     "name": {{ site.title | jsonify }},
     "description": {{ site.description | jsonify }},
+    "image": {{ '/assets/img/og-image.jpg' | absolute_url | jsonify }},
+    "screenshot": {{ '/assets/img/screenshot-annotated-1.jpg' | absolute_url | jsonify }},
     "applicationCategory": "GameApplication",
     "genre": "Simulation",
     "operatingSystem": "Android, iOS",

@@ -7,7 +7,7 @@ schema: app
 <section class="hero">
   <div class="wrap">
     <p class="eyebrow">Trailer reversing simulator</p>
-    <h1>Learn to Reverse a Trailer</h1>
+    <h1>Learn to Reverse a Trailer: 3D</h1>
     <p class="lead">Reversing with a trailer is one of the hardest driving skills to learn, and practising it on the road for the first time is stressful. This app lets you build the feel for it in a realistic 3D environment first.</p>
     {% include store-buttons.html %}
   </div>
@@ -29,6 +29,28 @@ schema: app
     <h2>No stress, no damage</h2>
     <p>No traffic, no impatient drivers behind you and nothing to scratch. It's just you, a car and a trailer, and you can retry as often as you like.</p>
   </article>
+</section>
+
+<section class="wrap screenshots">
+  <h2>See it in action</h2>
+  <p class="section-lead">You sit in the driver's seat and steer by the two side mirrors, just like in a real car.</p>
+  <figure class="shot shot-main">
+    <img src="{{ '/assets/img/screenshot-annotated-1.jpg' | relative_url }}" width="1600" height="740" alt="Learn to Reverse a Trailer: 3D gameplay showing the left and right mirror views, the steering slider, gear lever and pedal">
+  </figure>
+  <div class="shot-grid">
+    <figure class="shot">
+      <img src="{{ '/assets/img/shot-5.jpg' | relative_url }}" width="1280" height="656" loading="lazy" alt="Reversing the trailer between barriers, seen in both side mirrors">
+      <figcaption>Thread the trailer between barriers</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="{{ '/assets/img/shot-3.jpg' | relative_url }}" width="1280" height="656" loading="lazy" alt="Lining the trailer up with the yellow target bay in a parking garage">
+      <figcaption>Line up with the yellow target bay</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="{{ '/assets/img/shot-6.jpg' | relative_url }}" width="1280" height="656" loading="lazy" alt="Level complete screen saying Nice Parking with the bay turned green">
+      <figcaption>Park it cleanly to unlock the next level</figcaption>
+    </figure>
+  </div>
 </section>
 
 <section class="wrap audience">
